@@ -1,0 +1,74 @@
+
+        /* 全局样式重置与基础设置 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fa;
+            padding: 40px 0;
+        }
+
+        /* 简历容器样式 */
+        .resume-container {
+            width: 80%;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+            padding: 40px 60px;
+        }
+
+        /* 头部姓名样式 */
+        .resume-header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #4285f4;
+        }
+
+        .resume-header h1 {
+            font-size: 36px;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .resume-header p {
+            font-size: 16px;
+            color: #718096;
+        }
+
+        /* 模块通用样式 */
+        .resume-section {
+            margin-bottom: 30px;
+        }
+
+        .resume-section h2 {
+            font-size: 22px;
+            color: #4285f4;
+            margin-bottom: 18px;
+            padding-left: 10px;
+            border-left: 4px solid #4285f4;
+        }
+
+        .resume-section .content {
+            font-size: 16px;
+            color: #2d3748;
+            line-height: 1.8;
+            padding-left: 15px;
+        }
+
+        /* 技能标签样式优化 */
+        .skill-tag {
+            display: inline-block;
+            background-color: #e8f0fe;
+            color: #4285f4;
+            padding: 6px 12px;
+            border-radius: 20px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
